@@ -1,0 +1,140 @@
+/* Custom CSS
+ * --------------------------------------- */
+.flower {
+	height: 40%;
+	width: 40%;
+}
+
+.flower img {
+	height: 300px;
+	position: relative;
+	left: 80px;
+
+}
+
+ul.skillset p {
+	text-align: right;
+	margin: 0 0 0 0;
+	position: relative;
+	bottom: 0.4em;
+	right: 3px;
+}
+
+
+p:: first-letter {
+	font-size: small;
+}
+.skill-desc{
+	align-items: center;
+	display: inline-flex;
+	width: 80vw;
+}
+
+.skill-desc h6 {
+	padding-left: 0.8rem;
+	margin-bottom: -3px;
+}
+.skill-container {
+	width: 90%;
+	height: 1.2rem;
+	background-color: #ddd;
+	float: left;
+	box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+	border-radius: 10px;
+}
+
+.skills {
+	text-align: right; /* Right-align text */
+	color: white; /* White text color */
+	height: 1.2rem;
+	border-radius: 10px;
+	font-family: Raleway;
+}
+
+/* Skills rating */
+.rating-percentage {
+	color: white;
+}
+.tableau {
+	width: 85%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.excel {
+	width: 85%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.ps {
+	width: 80%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.python {
+	width: 50%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.r {
+	width: 60%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.osx {
+	width: 70%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+
+.web {
+	width: 70%;
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+}
+.percentage {
+	font-size: small;
+}
+
+.top_desc {
+	height: 100vh;
+	width: 100%;
+	display: table;
+}
+
+.top_desc p{
+	font-size: 2em;
+	text-transform: uppercase;
+	vertical-align: middle;
+	display: table-cell;
+}
+.top_desc p span{
+	position: inherit;
+	top: 0;
+	right: 0;
+	background: white;
+	width: 100%;
+	border-left: .1em solid transparent;
+	-webkit-animation: typing 3s steps(16) forwards,
+										 cursor 1s infinite;
+	animation: typing 3s steps(16) forwards,
+						 cursor 1s infinite;
+}
+
+
+
+/* Animation */
+@-webkit-keyframes typing{
+	from { width: 100%;}
+	to { width: 0;}
+}
+@-webkit-keyframes cursor{
+	50% { border-color: #3c8894;}
+}
+@keyframes typing{
+	from{ width: 100%;}
+	to{ width: 0;}
+}
+@keyframes cursor{
+	50% { border-color: #3c8894;}
+}
+
+
+
