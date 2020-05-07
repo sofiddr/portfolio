@@ -121,18 +121,10 @@ input, select, textarea {
 /* Typography */
 
 	html {
-		font-size: 20pt;
+		font-size: 14pt;
 	}
 
 		@media screen and (max-width: 1920px) {
-
-			html {
-				font-size: 16pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1152px) {
 
 			html {
 				font-size: 14pt;
@@ -140,10 +132,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 1152px) {
+
+			html {
+				font-size: 13pt;
+			}
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 15pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -151,7 +151,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -3194,7 +3194,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
-				margin-top: 0;
+				/*margin-top: 0; */
 			}
 
 		@media screen and (max-width: 736px) {
