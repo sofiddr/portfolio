@@ -1,5 +1,7 @@
 /* Custom CSS
  * --------------------------------------- */
+ @import "compass/css3";
+
 .flower {
 	height: 40%;
 	width: 40%;
@@ -49,50 +51,110 @@ p:: first-letter {
 	height: 1.2rem;
 	border-radius: 10px;
 	font-family: Raleway;
+	background-image: -webkit-linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+	background-image: -moz-linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
+  }
 }
 
 /* Skills rating */
+
+
 .rating-percentage {
 	color: white;
 }
 .tableau {
 	width: 85%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
+}
+
+.tableau.start {
+	-moz-animation:tableau 2s ease-out;
+	-webkit-animation:tableau 2s ease-out ;
 }
 
 .excel {
 	width: 85%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
+}
+
+.excel.start {
+	-moz-animation:excel 2s ease-out ;
+	-webkit-animation:excel 2s ease-out ;
 }
 
 .ps {
-	width: 80%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+	width: 80%; 
+
+}
+.ps.start {
+	-moz-animation:ps 2s ease-out ;
+	-webkit-animation:ps 2s ease-out ;
 }
 
 .python {
 	width: 50%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
+}
+
+.python.start {
+	-moz-animation:python 2s ease-out ;
+	-webkit-animation:python 2s ease-out ;	
 }
 
 .r {
 	width: 60%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
+}
+
+.r.start {
+	-moz-animation:r 2s ease-out ;
+	-webkit-animation:r 2s ease-out ;
 }
 
 .osx {
 	width: 70%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
+}
+
+.osx.start {
+	-moz-animation:osx 2s ease-out ;
+	-webkit-animation:osx 2s ease-out ;
 }
 
 .web {
 	width: 70%;
-	background-image: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a);
+
 }
+
+.web.start {
+	-moz-animation:web 2s ease-out ;
+	-webkit-animation:web 2s ease-out ;	
+}
+
 .percentage {
 	font-size: small;
 }
 
+
+@-moz-keyframes tableau      { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes tableau      { 0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes excel      { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes excel      { 0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes ps      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes ps      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes python      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes r      { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes r      { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes osx      { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes osx      { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes web      { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes web      { 0%  { width:0px;} 100%{ width:70%;}  }
+
+
+/* top section */
 .top_desc {
 	height: 87vh;
 	width: 100%;
